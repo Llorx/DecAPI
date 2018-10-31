@@ -23,11 +23,11 @@ What this means is that certain text output from endpoints might be changed, new
 Read [the documentation](https://docs.decapi.me/) to see how each endpoint functions.
 
 Anything that for some reason did not get included in this rewrite, will still be hosted under [v1.decapi.me](https://v1.decapi.me/).  
-There is also a fallback route setup to redirect all requests to the [old.decapi.me](https://v1.decapi.me/) URL, if it cannot find a valid route in the rewrite.
+There is also a fallback route setup to redirect all requests to the [v1.decapi.me](https://v1.decapi.me/) URL, if it cannot find a valid route in the rewrite.
 
 ## Requirements
 The following things are required for setting this up:
-- [Laravel 5.6's requirements](https://laravel.com/docs/5.6/installation#server-requirements)
+- [Laravel 5.7's requirements](https://laravel.com/docs/5.7/installation#server-requirements)
 - [A database system that Laravel supports](https://laravel.com/docs/5.2/database#introduction)
 - [Composer](https://getcomposer.org/)
 
